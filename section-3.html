@@ -3,99 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Section-3</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <title>Document</title>
     <style>
-        .container {
-            width: 100%;
-            min-width: 1300px;
-            display: flex;
-            flex-direction: column;
-        }
-        .gambarD{
-            display: flex;
-            justify-content: flex-end;
-            margin-right: 100px;
-            margin-top: 100px;
-        }
-        .gambarD img{
-            border-radius: 25px;
-            margin-top: -100px;
-        }
-        .list-text {
+        .section3 {
             font-family: "DM Sans", sans-serif;
-            font-size: 16px;
-            font-weight: 600;
-            text-transform: uppercase;
-            color: #E46B2D;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
         }
-        .isiD {
-            margin-top: -610px;
-            margin-left: 25px;
+        .containerd {
+            display: flex;
+            max-width: 1300px;
+            padding: 20px;
+            gap: 110px;
         }
-        .head {
-            font-family: "DM Sans", sans-serif;
+        .teks-contentd {
+            flex: 1;
+            padding-right: 20px;
+            margin-top: 25px;
         }
-        .judulD {
-            font-size: 50px;
+        .titled {
+            font-size: 60px;
             color: #052A46;
-            font-weight: 300;
-            line-height: 60px;
-            margin-top: 50px;
+            margin: 0;
         }
-        .bagian3 {
-            font-family: "DM Sans", sans-serif;
-            color: #54595f;
+        .tebald span {
+            font-weight: bold;
+        }
+        .bag-1d {
             font-size: 16px;
-            font-weight: 400;
+            color: #54595f;
             line-height: 1.8em;
         }
-        .contentD {
-            float:left;
-            width:600px;
-            height:600px;
-            line-height:250px;
-            text-align: start;
-            border-radius:1px;
+        .bag-2d {
+            font-size: 16px;
+            color: #54595f;
+            line-height: 1.8em;
+        }
+        .highlightd {
+            color: #E46B2D;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+        .image-contentd {
+            flex: 0;
+        }
+        .image-contentd img {
+            border-radius: 25px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="section3">
-            <div class="containerD">
-                <div class="gambarD">
-                    <img src="gambar-5.jpg" alt="" width="500" height="650">
-                </div>
-                <div class="isiD">
-                    <div class="headerD">
-                        <li class="list-item">
-                            <span class="list-text">AWESOME PRODUCT</span>
-                        </li>
-                        <div class="judulD">
-                            We’re Leaders in
-                            <span class="head" style="font-weight: 500;">Agriculture</span>
-                        </div>
-                    </div>
-                    <div class="contentD">
-                        <p class="bagian3">With over 30 years of experience in agriculture and eco-farming,
-                        we bring a wealth of knowledge and expertise to the global stage. 
-                        Our extensive background encompasses a wide range of agricultural 
-                        practices and sustainable farming techniques, allowing us to adapt 
-                        to diverse environments and challenges.
-                        </p>
-        
-                        <p class="bagian3">
-                        We collaborate closely with a network of seasoned professionals and 
-                        experts from around the world, ensuring that our methods are at the 
-                        forefront of innovation and sustainability. Our commitment to eco-friendly 
-                        practices not only promotes environmental health but also enhances agricultural 
-                        productivity and resilience. By leveraging our deep industry experience and professional 
-                        partnerships, we strive to advance global agricultural practices and support sustainable 
-                        farming initiatives.
-                        </p>
-                    </div>
-                </div>
+    <div class="section3">
+        <div class="containerd">
+            <div class="teks-contentd">
+                <li class="highlightd">AWESOME PRODUCT</li>
+                <h1 class="titled">We're Leaders In
+                <span class="tebald">Agriculture</span>
+                </h1>
+                <p class="bag-1d">With over 30 years of experience in agriculture and eco-farming, 
+                    we bring a wealth of knowledge and expertise to the global stage. 
+                    Our extensive background encompasses a wide range of agricultural practices 
+                    and sustainable farming techniques, allowing us to adapt to diverse environments 
+                    and challenges.
+                </p>
+                <p class="bag-2d">We collaborate closely with a network of seasoned professionals and 
+                    experts from around the world, ensuring that our methods are at the forefront 
+                    of innovation and sustainability. Our commitment to eco-friendly practices not only 
+                    promotes environmental health but also enhances agricultural productivity and resilience. 
+                    By leveraging our deep industry experience and professional partnerships, we strive to 
+                    advance global agricultural practices and support sustainable farming initiatives.
+                </p>
+            </div>
+            <div class="image-contentd">
+                <img src="image/gambar-5.jpg" alt="" width="550" height="750">
             </div>
         </div>
     </div>
