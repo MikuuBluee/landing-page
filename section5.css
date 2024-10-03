@@ -1,0 +1,59 @@
+.container {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: auto;
+}
+.headern img {
+    width : 600px;
+    height : 700px;
+    object-fit: cover;
+    object-position: center;
+    border-radius : 10px;
+    margin-left : 10px; 
+}
+.judul li {
+    margin-left :60px;
+}
+.judul span {
+    color : #e46b2d;
+    font-size : 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    vertical-align: baseline;
+    margin-left : -10px;
+    padding : 5px 0px 5px 5px;
+}
+.tulisan1 p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 50px;
+    margin-left : 80px;
+    color : #052A46;
+    margin-top : 45px;
+    font-style: inherit;
+    font-weight: inherit;
+}
+.tulisan2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color : rgb(85, 83, 83);
+    margin-left : 80px;
+    margin-top : -20px;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+.container2 {
+    width: 100%;
+    min-width: 1300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #FAFAFA;
+}
