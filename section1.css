@@ -1,0 +1,112 @@
+.bayu1 {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.navb 
+{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 3;
+    width: 1467.78px;
+    height: 87.99px;
+    align-items: center;
+    color: white;
+    box-shadow: 0px 0px 2px 0px white;
+}
+
+.ulb {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.ulb a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 30px;
+}
+
+
+.contactb {
+    display: flex;
+    align-items: center;
+
+}
+.contactb img {
+    width: 10px;
+    height: 17px;
+    margin-right: 8px;
+}
+
+.img1b img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.img1b {
+    position: relative;
+    overflow: hidden;
+    width: 1467.78px;
+    height: 800px;
+}
+
+ .overlay {
+    position: absolute;
+    z-index: 1;
+    width: 1467.78px;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.5)
+ }
+
+ .text1b {
+    position: absolute;
+    width: 1467.78px;
+    height: 800px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ 
+.text1b p:first-of-type {
+    font-family: 'DM Sans';
+    color: #ffffff;
+    font-size: 287.5%;
+    text-shadow: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 500;
+    margin: 0px 0px -30px 0px;
+}
+
+.text1b p:nth-of-type(2) {
+    font-family: 'Kristi';
+    color: #ffffff;
+    font-size: 937.5%;
+    text-shadow: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 400;
+    font-family: "Kristi", cursive;
+    margin: 0px 0px 35px 0px;
+}
