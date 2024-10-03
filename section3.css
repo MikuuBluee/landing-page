@@ -1,0 +1,53 @@
+.section3 {
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.containerd {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 20px;
+    padding: 20px;
+    gap: 110px;
+}
+.teks-contentd {
+    flex: 1;
+    padding-right: 20px;
+    margin-top: 25px;
+}
+.titled {
+    font-size: 60px;
+    color: #052A46;
+    margin: 0;
+}
+.tebald span {
+    font-weight: bold;
+}
+.bag-1d {
+    font-size: 16px;
+    color: #54595f;
+    line-height: 1.8em;
+}
+.bag-2d {
+    font-size: 16px;
+    color: #54595f;
+    line-height: 1.8em;
+}
+.highlightd {
+    color: #E46B2D;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.image-contentd {
+    flex: 0;
+}
+.image-contentd img {
+    border-radius: 25px;
+}

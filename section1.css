@@ -1,9 +1,13 @@
+
 .bayu1 {
+    display: flex;
+    justify-content: center;
     font-family: sans-serif;
+    max-width: 1300px;
+    width: 100%;
     font-size: 16px;
     font-weight: bold;
-    margin: 0;
-    padding: 0;
+    margin: auto;
 }
 
 .navb 
@@ -51,7 +55,6 @@
 .img1b {
     position: relative;
     overflow: hidden;
-    width: 1467.78px;
     height: 800px;
 }
 
