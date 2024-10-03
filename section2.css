@@ -1,0 +1,100 @@
+.containerbb {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.headingbb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headingbb p:first-of-type{
+    font-family: sans-serif;
+    color: #E46B2D;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.headingbb h1 {
+    color: #31342B;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 60px;
+    margin: 0;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.headingbb p:nth-of-type(2) {
+    text-align: center;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 500px;
+    margin: 0px 0px 40px 0px
+}
+
+.boxjpg {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    justify-items: center;
+}
+
+.tomatbb.png, .obt.png, .rempah-rempah.png {
+    border-radius: 50px;
+}
+
+.img1bb, .img2bb, .img3bb  {
+    position: relative;
+}
+
+.img1bb img, .img2bb img, .img3bb img {
+    border-radius: 30px;
+    width: 95%;
+} 
+
+.text1bb, .text2bb, .text3bb {
+    position: absolute;
+    left: 20%;
+    top: 35%;
+    color: white;
+    padding: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text1bb h2 , .text2bb h2, .text3bb h2 {
+    color: #FFFFFF;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2em;
+    margin: 0px, 0px, 0px;
+}
+
+.text1bb p, .text2bb p, .text3bb p {
+    text-align: center;
+    width: 286px;
+    color: #FFFFFF;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+.img1bb {
+    padding-top: 150px;
+}
+
+.img2bb {
+    padding-top: 75px;
+}
